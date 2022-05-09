@@ -20,8 +20,7 @@ public class Main {
         System.out.println(u1.height);
         System.out.println(u1.isActive);
 
-        User user1 = new User(12, "Vova", "qwerty",
-                    "123", (byte) 21, "man", 76.9F,
+        User user1 = new User(12, "Vova", "qwerty", (byte) 21, "man", 76.9F,
                     167.9, true, '+'){
 
         };

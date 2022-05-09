@@ -1,30 +1,21 @@
 package demo2;
 
 public class User {
-    int id; // byte short int long
-    String name;
-    String login;
-    String password;
-    byte age;
-    String sex;
-    float weight;
-    double height;
-    boolean isActive;
-    char special;
+    public int id; // byte short int long
+    public String name;
+    public String login;
+    public String password;
+    public byte age;
+    public String sex;
+    public float weight;
+    public double height;
+    public boolean isActive;
+    public char special;
 
     public User(){
     }
 
-    public User(int id,
-                String name,
-                String login,
-                String password,
-                byte age,
-                String sex,
-                float weight,
-                double height,
-                boolean isActive,
-                char special) {
+    public User(int id, String name, String login, byte age, String sex, float weight, double height, boolean isActive, char special) {
         this.id = id;
         this.name = name;
         this.login = login;
@@ -36,6 +27,7 @@ public class User {
         this.isActive = isActive;
         this.special = special;
     }
+
 
     @Override
     public String toString() {
