@@ -21,7 +21,6 @@ public class Main {
                 new User("Anya", 19),
                 new User("Olya", 21),
                 new User("Masha", 20),
-
         };
 
 //        Helper helper = new Helper();
